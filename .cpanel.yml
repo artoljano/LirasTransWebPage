@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2-103/lirasal/repositories/LirasTransWebPage  #Add /<sub_folder> if required
+    - /bin/cp -r * $DEPLOYPATH
