@@ -1,5 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2-103/lirasal/repositories/
-    - /LirasTransWebPage * $DEPLOYPATH
+    - /LirasTransWebPage -R $DEPLOYPATH
     
