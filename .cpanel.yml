@@ -2,5 +2,7 @@
 deployment:
     tasks:
         - export DEPLOYPATH=/home2-103/lirasal/public_html/
-        - /cgi-bin -R * $DEPLOYPATH
+        - /LirasTransWebPage/images -R * $DEPLOYPATH
+        - /LirasTransWebPage/intlTelInput -R * $DEPLOYPATH
+        - /LirasTransWebPage -R * $DEPLOYPATH
     
