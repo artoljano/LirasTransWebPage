@@ -2,7 +2,5 @@
 deployment:
     tasks:
         - export DEPLOYPATH=/home2-103/lirasal/public_html/
-        - /LirasTransWebPage/images -R * $DEPLOYPATH
-        - /LirasTransWebPage/intlTelInput -R * $DEPLOYPATH
         - /LirasTransWebPage -R * $DEPLOYPATH
     
