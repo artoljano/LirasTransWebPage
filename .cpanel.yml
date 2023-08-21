@@ -1,6 +1,6 @@
 ---
-    deployment:
-        tasks:
-            - export DEPLOYPATH=/home2-103/lirasal/public_html/
-            - /cgi-bin -R * $DEPLOYPATH
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home2-103/lirasal/public_html/
+        - /cgi-bin -R * $DEPLOYPATH
     
