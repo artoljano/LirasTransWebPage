@@ -2,5 +2,6 @@
 deployment:
     tasks:
         - export DEPLOYPATH=/home2-103/lirasal/public_html/
+        - cp -r * $DEPLOYPATH
         - /LirasTransWebPage -R $DEPLOYPATH
     
